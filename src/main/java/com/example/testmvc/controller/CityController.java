@@ -13,6 +13,7 @@ import java.util.ArrayList;
 @RequestMapping
 public class CityController {
     private CityService cityService;
+    private boolean check;
 
     public CityController(CityService cityService) {
         this.cityService = cityService;
